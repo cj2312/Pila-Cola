@@ -77,7 +77,7 @@ public:
         primero=ultimo=NULL;
     }
     bool vacio(){
-        primero==NULL;
+        return primero==NULL;
     }
     void insertarElem(T elemento)
     {
